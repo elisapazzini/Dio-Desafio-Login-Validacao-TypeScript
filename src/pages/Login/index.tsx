@@ -17,7 +17,7 @@ const schema = yup
   })
   .required();
 
-const Login = () => {
+const App = () => {
   const {
     control,
     formState: { errors, isValid },
@@ -56,4 +56,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default App;
